@@ -1,6 +1,6 @@
 import streamlit as st
 '''
-# TaxiFareModel front
+# My amazing website
 '''
 
 st.markdown('''
@@ -8,17 +8,6 @@ Remember that there are several ways to output content into your web page...
 
 Either as with the title by just creating a string (or an f-string). Or as with this paragraph using the `st.` functions
 ''')
-'''
-## Here we would like to add some controllers in order to ask the user to select the parameters of the ride
-
-1. Let's ask for:
-- date and time
-- pickup longitude
-- pickup latitude
-- dropoff longitude
-- dropoff latitude
-- passenger count
-'''
 '''
 ## Once we have these, let's call our API in order to retrieve a prediction
 
